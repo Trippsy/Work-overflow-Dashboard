@@ -3,3 +3,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.login {
+  width: 520px;
+  height: 406px;
+  margin-top: 309px;
+  margin-left: 360px;
+}
+
+.logo {
+  width: 432px;
+  height: 77px;
+  margin-top: 44px;
+  margin-left: 53px;
+}
+.logo img {
+  width: 200px;
+  height: 45px;
+}
+.logo h2 {
+  font-weight: medium;
+  font-size: 20px;
+}
+input {
+  width: 520px;
+  height: 49px;
+  padding-top: 27px;
+  border-radius: 12px;
+  border: 1px solid #5C73DB;
+}
