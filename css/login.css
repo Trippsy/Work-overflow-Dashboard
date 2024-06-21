@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 50%;
+  height: 50%;
+}
+  
+.logo {
+  width: 432px;
+  height: 77px;
+  margin-top: 44px;
+  margin-left: 53px;
+  padding-left: 64px;
+}
+.logo img {
+  width: 200px;
+  height: 45px;
+}
+.logo h2 {
+  font-weight: medium;
+  font-size: 20px;
+}
+input {
+  width: 520px;
+  height: 49px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border: 1px solid #5C73DB;
+}
+
+
+.login p {
+  margin-top: 12px;
+  margin-left: 177px;
+}
+.sign-in {
+  display: flex;
+  padding-top: 8px;
+}
+
+
+.sign-in button {
+  width: 520px;
+  height: 48px;
+  padding-bottom: 12px;
+  background-color: #4763E4;
+  color: white;
+  border-radius: 12px;
+  border: none;
+}
+
+.sign-in span{
+  position: relative;
+  top: 7px;
+}
+
+.create a {
+  text-decoration: none;
+  color:  #5C73DB;
+}
