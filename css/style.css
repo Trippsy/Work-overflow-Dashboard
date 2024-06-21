@@ -4,12 +4,20 @@
   box-sizing: border-box;
 }
 
-.login {
-  width: 520px;
-  height: 406px;
-  margin-top: 309px;
-  margin-left: 360px;
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
 }
+
+.login {
+  width: 50%;
+  height: 50%;
+}
+  
+
+
 
 .logo {
   width: 432px;
