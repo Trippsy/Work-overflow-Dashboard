@@ -16,6 +16,7 @@
   height: 77px;
   margin-top: 44px;
   margin-left: 53px;
+  padding-left: 64px;
 }
 .logo img {
   width: 200px;
@@ -28,7 +29,39 @@
 input {
   width: 520px;
   height: 49px;
-  padding-top: 27px;
+  margin-top: 12px;
+  margin-bottom: 8px;
   border-radius: 12px;
   border: 1px solid #5C73DB;
+}
+
+
+.login p {
+  margin-top: 12px;
+  margin-left: 177px;
+}
+.sign-in {
+  display: flex;
+  padding-top: 8px;
+}
+
+
+.sign-in button {
+  width: 520px;
+  height: 48px;
+  padding-bottom: 12px;
+  background-color: #4763E4;
+  color: white;
+  border-radius: 12px;
+  border: none;
+}
+
+.sign-in span{
+  position: relative;
+  top: 7px;
+}
+
+.create a {
+  text-decoration: none;
+  color:  #5C73DB;
 }
