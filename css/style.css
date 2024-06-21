@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -57,3 +58,4 @@ button {
   border-radius: 12px;
   border: none;
 }
+
