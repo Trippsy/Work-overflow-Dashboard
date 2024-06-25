@@ -4,23 +4,28 @@
   box-sizing: border-box;
 }
 
-.login-wrapper {
+body {
   display: flex;
   justify-content: center;
+  height: 100vh;
+  width: 100%;
   align-items: center;
+  font-family: inter;
 }
 
-.login {
-  width: 50%;
-  height: 50%;
+.login-wrapper {
+  width: 520px;
+  max-width: 100%;
 }
+
+
   
 .logo {
-  width: 432px;
-  height: 77px;
-  margin-top: 44px;
-  margin-left: 53px;
-  padding-left: 64px;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+
+
 }
 .logo img {
   width: 200px;
@@ -31,7 +36,7 @@
   font-size: 20px;
 }
 input {
-  width: 520px;
+width: 100%;
   height: 49px;
   margin-top: 12px;
   margin-bottom: 8px;
@@ -40,32 +45,42 @@ input {
 }
 
 
-.login p {
+.create p {
   margin-top: 12px;
-  margin-left: 177px;
+  text-align: center;
+
 }
 .sign-in {
-  display: flex;
-  padding-top: 8px;
+  margin-top: 16px;
 }
 
 
 .sign-in button {
-  width: 520px;
+  width: 100%;
   height: 48px;
-  padding-bottom: 12px;
+ 
   background-color: #4763E4;
   color: white;
   border-radius: 12px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
-.sign-in span{
-  position: relative;
-  top: 7px;
-}
+
 
 .create a {
   text-decoration: none;
   color:  #5C73DB;
 }
+
+
+@media only screen  and (max-width:768px){
+  body {
+    padding: 0 16px;
+  }
+  
+}
+
